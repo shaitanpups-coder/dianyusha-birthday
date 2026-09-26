@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Для Дианюши ❤️</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#fff;font-family:Arial,sans-serif;background:radial-gradient(circle at 20% 10%,#7d1737,transparent 35%),linear-gradient(145deg,#120207,#450a1b,#160207);min-height:100vh;overflow-x:hidden}.wrap{max-width:850px;margin:auto;padding:20px}.hero{min-height:92vh;display:grid;place-items:center;text-align:center}.hero h1{font-size:clamp(52px,14vw,105px);margin:10px 0;text-shadow:0 0 35px #ff315c;font-family:cursive}.hero p{font-size:clamp(18px,4vw,26px);line-height:1.6}.card{margin:28px 0;padding:clamp(24px,6vw,48px);border:1px solid #ffffff22;border-radius:28px;background:#ffffff0d;backdrop-filter:blur(12px);box-shadow:0 20px 60px #0006}.card h2{text-align:center;font-size:28px;margin-top:0}.letter{font-size:18px;line-height:1.9}.letter p{margin:0 0 18px}.heart{text-align:center;font-size:64px}.reasons{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}.reason{padding:20px;border-radius:20px;background:#ff315c12;border:1px solid #ff7b951c;line-height:1.6}.reason b{display:block;font-size:20px;margin-bottom:8px}.cake{text-align:center}.cake button{font-size:90px;background:none;border:0;cursor:pointer}.surprise{display:none;font-size:19px;line-height:1.8}.surprise.show{display:block}.btn{padding:14px 22px;border:0;border-radius:30px;background:#e51c4d;color:white;font-size:16px}.final{text-align:center;font-size:19px;line-height:1.9}.signature{font-family:cursive;font-size:27px;margin-top:25px}footer{text-align:center;opacity:.45;margin:45px 0}.float{position:fixed;bottom:-40px;animation:up 9s linear infinite;opacity:.2;pointer-events:none}@keyframes up{to{transform:translateY(-110vh) rotate(20deg);opacity:0}}
+</style>
+</head>
+<body>
+<div id="hearts"></div>
+<main class="wrap">
+<section class="hero"><div><div>МАЛЕНЬКИЙ ПОДАРОК ОТ МЕНЯ</div><h1>Дианюша ❤️</h1><p>С днём рождения!<br>Сегодня тебе 15 ✨</p><p>↓ здесь для тебя кое-что приготовлено ↓</p></div></section>
+<section class="card">
+<div class="heart">❤️</div><h2>Небольшое письмо для тебя</h2>
+<div class="letter">
+<p>Дианюша, я хочу поздравить тебя с днём рождения!</p>
+<p>Ты всегда была для меня лучшей и очень важной подругой в жизни. Ты умеешь дарить такую теплоту, что даже на расстоянии рядом с тобой становится светлее.</p>
+<p>В этот день я хочу пожелать тебе быть счастливой, радостной и весёлой. Пусть у тебя будет как можно больше моментов, от которых хочется улыбаться.</p>
+<p>Твоя красота всегда поражала меня очень сильно. Но самое прекрасное в тебе — ещё и то тепло, которое ты умеешь дарить людям.</p>
+<p>Я никогда не жалел о том, что шёл с тобой куда угодно, заходил с тобой в звонок и вообще однажды начал с тобой общаться. Я очень рад, что ты есть в моей жизни.</p>
+<p>Я очень рад за тебя и за твои достижения. Они иногда даже похлеще моих 😄 Я горжусь тобой и хочу, чтобы ты продолжала идти вперёд.</p>
+<p>Не позволяй никому тебя обижать. Оставайся такой же милой, красивой и настоящей.</p>
+<p>С днём рождения тебя, Дианюша. Спасибо тебе за всё тепло. ❤️</p>
+</div></section>
+<section class="card"><h2>За что тебя хочется ценить</h2><div class="reasons">
+<div class="reason"><b>🌷 За милость</b>Рядом с тобой становится уютнее.</div>
+<div class="reason"><b>✨ За красоту</b>Ту самую, которая заставляет улыбнуться.</div>
+<div class="reason"><b>❤️ За тепло</b>Ты умеешь оставить после себя хорошее чувство.</div>
+<div class="reason"><b>🫶 За тебя</b>Просто за то, что ты есть.</div>
+</div></section>
+<section class="card cake"><h2>А теперь маленький сюрприз 🎂</h2><button id="cake">🎂</button><div>Нажми на тортик</div><div id="surprise" class="surprise"><p>✨ Загадай желание. А я пожелаю тебе, чтобы оно когда-нибудь обязательно исполнилось. ❤️</p><button class="btn" onclick="boom()">Ещё немного волшебства ✨</button></div></section>
+<section class="card final"><div class="heart">💗</div><h2>И последнее...</h2><p>Пусть этот маленький сайт напомнит тебе, что даже когда между людьми километры, тёплые слова всё равно могут быть рядом.</p><p>С 15-летием, Дианюша.<br>Будь счастлива. Улыбайся чаще.<br>И никогда не забывай, насколько ты замечательная.</p><div class="signature">От человека, которому ты дорога ❤️</div></section>
+<footer>Сделано специально для Дианюши • 2026</footer>
+</main>
+<script>
+for(let i=0;i<25;i++){let x=document.createElement('div');x.className='float';x.textContent=['❤','♥','♡'][Math.random()*3|0];x.style.left=Math.random()*100+'%';x.style.fontSize=15+Math.random()*25+'px';x.style.animationDelay=-Math.random()*9+'s';document.getElementById('hearts').appendChild(x)}
+document.getElementById('cake').onclick=()=>{document.getElementById('surprise').classList.add('show');document.getElementById('cake').textContent='🕯️';boom()};
+function boom(){for(let i=0;i<30;i++){let x=document.createElement('div');x.className='float';x.textContent=['❤️','💗','✨','🌸'][Math.random()*4|0];x.style.left=50+Math.random()*20-10+'%';x.style.bottom='45%';x.style.animationDuration=2+Math.random()*3+'s';document.body.appendChild(x);setTimeout(()=>x.remove(),5000)}}
+</script>
+</body></html>
